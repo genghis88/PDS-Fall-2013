@@ -1,0 +1,43 @@
+This data represents the resposes to the multiple choice questions issued in the survey given prior to the first class. There are five columns, each separated by a comma (,). The values in the columns correspond to the questions: 
+
+1. Timestamp: When was the survey filled out?
+
+2. Degree Program: Where is the Student Enrolled?
+
+3. "Do you have any experience working in a command-line terminal (aka console or shell)?",
+
+4. "Have you directly used a relational database (MySQL, Postgres, SQL Server)? How much experience do you have working with databases?"
+
+and 
+
+5. "Do you have any programming experience? Please describe your programming background."
+
+Respectively. 
+
+
+The observed resposes to the first question, arranged from lowest to higest skill  are:
+I dont even understand the question
+I have no experience working in a terminal 
+I have issued a few commands in a terminal based on given instructions 
+I have written simple terminal commands or done some system work on the terminal
+I have written complex commands done or have done deep system work  
+
+The observed responses to the second question arranged from lowest to higest skill are: 
+I have never directly accessed a database 
+I have issued simple queries to a relational database based on given instructions
+I can write simple queries and issue them to a database 
+I can write very complex queries when needed 
+I am a database hacker 
+
+The observed responses to the third question arrainged from lowest to higest skill are: 
+I have never programmed before.
+I have written simple programs, based on instructions or a tutorial
+I can write simple programs to accomplish tasks I encounter 
+I can write complex programs, am familiar with programming design patterns, software testing, system design, and algorithms.
+I am a hacker or have  senior-level programming experience 
+
+
+
+
+
+
