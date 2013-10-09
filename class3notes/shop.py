@@ -1,7 +1,7 @@
 import json
 
 class Shop:
-    def __init__(self, id, name, user, listings = dict()):
+    def __init__(self, id, name, user, listings = {}):
         self.id = id
         self.name = name
         self.user = user

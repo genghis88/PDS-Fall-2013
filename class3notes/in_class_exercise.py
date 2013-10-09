@@ -1,8 +1,6 @@
 import users
 import listings
 import shop
-import shop as s
-
 
 user_filename = "users.json"
 listings_filename = "listings.json"
@@ -35,9 +33,9 @@ for line in listing_file:
 listing_file.close()
 
 
-print "have " + str(len(all_shops)) + " shops"
-print "have " + str(len(all_users)) + " users"
-print "have " + str(len(all_listings)) + " listings"
+print "have %d shops" % len(all_shops)
+print "have %d users" % len(all_users)
+print "have %d listings" % len(all_listings)
 
 num_friends = dict()
 num_favorites = dict()
@@ -51,6 +49,5 @@ for a_user in all_users:
     else:
         num_favorites[num] = num_favorites[num] + 1
 
-        
 print num_favorites
 
