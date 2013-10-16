@@ -94,6 +94,16 @@ elif (maxim == total2):
   print "Database has the highest overall skill level"
 else:
   print "Programming has the highest overall skill level"
+
+minim = min(total1,total2)
+minim = min(minim,total3)
+
+if (minim == total1):
+  print "Unix has the lowest overall skill level"
+elif (minim == total2):
+  print "Database has the lowest overall skill level"
+else:
+  print "Programming has the lowest overall skill level"
   
   
 5.
